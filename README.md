@@ -117,6 +117,12 @@ Grupos de 3-4 alunos, escolha um dos 10 temas:
 
 Detalhes em [`exercicios/06-projeto-final-grupo/`](./exercicios/06-projeto-final-grupo/).
 
+## Como entregar atividades
+
+Guia completo passo-a-passo: [`COMO_ENTREGAR.md`](./COMO_ENTREGAR.md) (fork → clone → branch → commit → push → PR → link Canvas).
+
+Slides da abertura da Aula 2 com tutorial Fork+PR: [`slides/intro-fluxo-pr-github.pdf`](./slides/intro-fluxo-pr-github.pdf).
+
 ## Auto-grading via CI 🤖
 
 Algumas atividades são **avaliadas automaticamente** em PR. Workflow:
