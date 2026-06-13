@@ -127,4 +127,4 @@ npm run test:coverage
 - **[exercício (app + scaffolds)](https://github.com/jacksonsmith/puc-iec-testes-aplicacoes-mobile/tree/main/exercicios/02-setup-suite-unitaria/exercicio)** — README com tasks
 - **[guia-passo-a-passo.md](https://github.com/jacksonsmith/puc-iec-testes-aplicacoes-mobile/blob/main/exercicios/02-setup-suite-unitaria/guia-passo-a-passo.md)** — comandos + troubleshooting
 - **[template-relatorio.md](https://github.com/jacksonsmith/puc-iec-testes-aplicacoes-mobile/blob/main/exercicios/02-setup-suite-unitaria/template-relatorio.md)** — README modelo
-- **[Slide aula 3 — Jest/RNTL](https://github.com/jacksonsmith/puc-iec-testes-aplicacoes-mobile/blob/main/slides/aula-03/aula-03-jest-rntl-detox.pdf)**
+- **[Slide aula 3 — Jest/RNTL](https://github.com/jacksonsmith/puc-iec-testes-aplicacoes-mobile/blob/main/slides/aula-03/aula-03-jest-rntl.pdf)**
