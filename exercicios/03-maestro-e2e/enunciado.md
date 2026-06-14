@@ -1,4 +1,4 @@
-# Atividade 3 — Suíte Maestro Cross-Platform (15 pts)
+# Atividade 3 — Suíte Maestro Cross-Platform (10 pts)
 
 **Disciplina:** Testes de Aplicações Mobile
 **Entrega:** até **28/06/2026** (1 semana após a Aula 4)
@@ -55,14 +55,16 @@ App da disciplina com bugs propositais. Disponível em:
 
 ---
 
-## Parte 1 — 5 Flows Maestro (10 pts)
+## Parte 1 — 5 Flows Maestro (6 pts)
 
 Escreva **5 flows YAML** cobrindo features diferentes do app. Cada flow deve:
 - Usar `tapOn: id:` (não `tapOn: text:`) nos elementos que têm testID
 - Ter pelo menos 1 `assertVisible` que verifique resultado esperado
 - Rodar verde em **ao menos uma plataforma** (iOS sim OU Android emu)
 
-**Flows obrigatórios (3 pts cada um que rodar verde):**
+**Pontuação:** **1 pt por flow** que rodar verde (até 5) **+ 1 pt** se os **5** rodarem verde = 6 pts.
+
+**Flows obrigatórios:**
 
 | # | Flow | Arquivo |
 |---|---|---|
@@ -72,7 +74,7 @@ Escreva **5 flows YAML** cobrindo features diferentes do app. Cada flow deve:
 | 4 | Adicionar item na todo list + verificar que aparece | `flows/04-todolist.yaml` |
 | 5 | Completar onboarding até a tela final | `flows/05-onboarding.yaml` |
 
-**Bônus +2pts:** flow que usa `runFlow:` com fragmento reutilizável (ex: `_fragments/launch.yaml` chamado por múltiplos flows)
+**Bônus +1pt:** flow que usa `runFlow:` com fragmento reutilizável (ex: `_fragments/launch.yaml` chamado por múltiplos flows)
 
 ### Rodando os flows
 
@@ -89,7 +91,7 @@ maestro test flows/ --format junit --output results/
 
 ---
 
-## Parte 2 — Firebase Test Lab (3 pts)
+## Parte 2 — Firebase Test Lab (2 pts)
 
 Execute **ao menos 1 flow** em device real via Firebase Test Lab:
 
