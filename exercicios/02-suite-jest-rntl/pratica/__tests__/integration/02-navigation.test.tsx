@@ -25,5 +25,5 @@ beforeEach(() => {
 });
 
 describe('Navegação (integração)', () => {
-  it.todo('1. tocar no filme abre a tela de detalhe');   // 🧑‍💻 aluno
+  it.todo('1. tocar no filme abre a tela de detalhe');   // 🧑‍🏫 em aula (exemplo de navegação)
 });
