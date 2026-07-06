@@ -20,3 +20,5 @@ env:
     file: _fragments/search.yaml
     env:   
         SEARCH_TERM: ${SEARCH_TERM}
+
+- assertVisible: ${SEARCH_TERM}        

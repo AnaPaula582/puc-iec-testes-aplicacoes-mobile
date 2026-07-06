@@ -21,3 +21,5 @@ appId: com.puciec.cinefav
     env:   
         SEARCH_TERM: ${output.termo}
 
+- assertVisible: ${output.termo}
+
